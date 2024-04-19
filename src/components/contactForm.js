@@ -3,7 +3,7 @@ import { Form, Row , Button} from "react-bootstrap";
 
 function ContactForm(){
     return(
-        <Form name="contact" method="POST" data-bs-netlify='true' onSubmit='submit' >
+        <Form name="contact" netlify >
             <Row>
                 <Form.Group controlId="formGroupName">
                     <Form.Label>Name</Form.Label>
@@ -17,7 +17,7 @@ function ContactForm(){
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" placeholder="Message"/>
                 </Form.Group>
-                <Button>
+                <Button type="submit">
                     Submit
                 </Button>
             </Row>
