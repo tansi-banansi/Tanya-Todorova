@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../public/font/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    font-family: "Montserrat", Arial, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-brand-custom{
+    color: #EF8354;
+ }
+
+ .bg-banner-custom {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/img/bannerImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.border-color{
+    border-color: #EF8354 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-about-custom{
+    background-color: #F7F7F7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-button-custom{
+    background-color: #EF8354;
+    border: none;
+}
+
+.bg-button-custom:hover{
+    background-color: #ab5d3c;
+}
+
+.bg-skills-custom{
+    background-color: #2D3142;
 }
