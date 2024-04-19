@@ -4,8 +4,11 @@ import React from "react";
 
 function ContactForm(){
     return(
-        <Form name="contact" method="post" data-netlify="true" onSubmit='submit'>
+        <Form name="contact" method="post" data-netlify="true" onSubmit='submit' data-netlify-honeypot="bot-field">
                 <input type="hidden" name='form-name' value='contact'/>
+                <div hidden>
+                    <input name="bot-field"/>
+                </div>
 
                 <Row>
                     <Form.Group controlId="formGroupName">
