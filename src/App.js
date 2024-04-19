@@ -11,8 +11,8 @@ function App() {
   return(
     <div>
       <header>
-        <Navbar expand='lg' fixed='top' data-bs-theme='dark' className='mx-3 my-2 border-bottom border-light'>
-          <Container fluid className='g-0 align-items-center  '>
+        <Navbar expand='lg' fixed='top' data-bs-theme='dark' className='  border-light bg-navbar-custom shadow-lg'>
+          <Container fluid className='g-0 align-items-center mx-3 my-2 '>
             <Navbar.Brand href="#" className="text-uppercase l-2" style={{letterSpacing:'0.3rem'}} ><span className='text-brand-custom'> Tanya <strong>/</strong></span> Todorova</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav'/>
             <Navbar.Collapse id='basic-navbar-nav'>
@@ -104,24 +104,26 @@ function App() {
 
             <Row className='d-flex flex-row g-3'>
 
-              <Col className='text-white bg-skills-custom px-md-4 py-md-2'  sm='12' lg='6'>
+              <Col className='text-white bg-skills-custom px-md-4 py-md-2'  sm='12' md='12' xl='4'>
 
                 <div className='p-5'>
                   <h4 className='border-start border-4 border-color text-uppercase py-2 px-4 mb-4'style={{letterSpacing:'3px'}}>Contacts</h4>
                   <p>Tanya Todorova</p>
                   <p>tanyatodorovaaa@gmail.com</p>
                   <p>London, United Kindgom</p>
+                  <p>+44 [0] 7471 823 334</p>
+                  
                   <LinksComponent/>
                 </div>
 
               </Col>
 
-              <Col className='px-md-4 py-md-2 ' sm='12' lg='6'>
+              <Col className='px-md-4 py-md-2 ' sm='12' md='12' xl='8'>
+
                 <div className='p-5'>
                   <ContactForm/>
                 </div>
 
-              
               </Col>
 
             </Row>

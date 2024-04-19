@@ -2,7 +2,7 @@ const carouselAttributes = [
     {
         path: '/img/projectOne.jpg',
         alt: 'Project One',
-        caption:'Third slide label',
+        caption:'Business Website',
         info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         buttonLink:'https://tans-architecture.netlify.app/'
 
@@ -10,7 +10,7 @@ const carouselAttributes = [
     {
         path: '/img/projectTwo.jpg',
         alt: 'Project Two',
-        caption:'Third slide label',
+        caption:'Jammming',
         info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         buttonLink:'https://jammming-by-tans.netlify.app/authenticate'
 

@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+.bg-navbar-custom{
+    background-color: #2D3142;
+}
+
 .text-brand-custom{
     color: #EF8354;
  }
@@ -39,5 +43,14 @@
 }
 
 .bg-skills-custom{
+    background-color: #2D3142;
+}
+
+.bg-contact-button-custom{
+    background-color: #4F5D75;
+    border: none;
+}
+
+.bg-contact-button-custom:hover{
     background-color: #2D3142;
 }
