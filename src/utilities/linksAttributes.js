@@ -1,5 +1,5 @@
 import linkAttributes from "../components/linksComponent";
-import { Col, Row , Image} from "react-bootstrap";
+import { Image} from "react-bootstrap";
 
 function LinksComponent() {
     return(
