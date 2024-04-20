@@ -33,7 +33,7 @@ function App() {
 
             <Row className='d-flex flex-column g-0'>
 
-              <Col className='border border-color border-4 px-5 py-2 text-center mb-4 shadow '>
+              <Col className='border border-color  border-4 border-sm-0 px-5 py-2 text-center mb-4 shadow '>
                 <h1 className='text-white text-uppercase' style={{letterSpacing:'3px', fontSize:'2.25rem'}}>Hello! <span className='fw-bold'>I'm</span> Tanya</h1>
               </Col>
 
@@ -55,9 +55,9 @@ function App() {
                 <div className='m-5'>
 
                   <h4 className='border-start border-4 border-color text-uppercase py-2 px-4  mb-4'style={{letterSpacing:'3px'}}>About me</h4>
-                  <p className='fst-italic' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <a href='/files/TanyaTodorova_CV.pdf' download><Button className='bg-button-custom text-uppercase fw-medium px-4 py-3 mt-3 rounded-0 '>Download CV</Button></a>
+                  <p className='fst-italic fw-light' >I am a junior front-end developer based in London, United Kingdom.</p>
+                  <p>I have worked on several projects utilising front-end development technologies such as HTML, CSS, JavaScript, React, and Bootstrap. My experience includes developing website prototypes in Figma and then transforming them into fully responsive websites adaptable to all screen sizes.</p>
+                  <a href='/files/TanyaTodorova_CV.pdf' download><Button className='bg-button-custom  fw-medium px-5 py-2 mt-3 rounded-0 '>Download CV</Button></a>
 
                 </div>
 
@@ -82,7 +82,7 @@ function App() {
               <Col className='px-md-4 py-md-2'>
                 <div className='m-5'>
                   <h4 className='border-start border-4 border-color text-uppercase py-2 px-4 mb-4'style={{letterSpacing:'3px'}}>featured work</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p className='fst-italic fw-light'>Explore a few examples of the projects I have worked on during my journey as a junior front-end developer.</p>
                 </div>
                 
                 <div className='m-5'>

@@ -21,7 +21,7 @@ function CustomCarousel(){
                         <Carousel.Item key={index}>
                             
                             <div className="d-flex flex-column justify-content-center align-items-center">
-                                <img src={item.path} className="d-block w-50 rounded-2 shadow" alt={item.alt}/>
+                                <img src={item.path} className="d-block w-100-xs w-50-sm rounded-2 shadow" alt={item.alt}/>
                             </div> 
 
                         </Carousel.Item>
@@ -29,10 +29,11 @@ function CustomCarousel(){
 
                 </Carousel>
 
-                <div className="pt-5 w-50 text-center">
+                <div className="pt-4 text-center">
                     <h5>{carouselAttributes[activeIndex].caption}</h5>
                     <p>{carouselAttributes[activeIndex].info}</p>
-                    <a href={carouselAttributes[activeIndex].buttonLink} target="blank"><Button type='button' className='bg-button-custom  fw-medium p-2 rounded-0 '>See More</Button></a>
+                    <p className="fst-italic fw-light">{carouselAttributes[activeIndex].technologies}</p>
+                    <a href={carouselAttributes[activeIndex].buttonLink} target="blank"><Button type='button' className='bg-button-custom  fw-medium px-5 py-2 rounded-0 '>See More</Button></a>
                 </div>
 
             </div>

@@ -3,7 +3,8 @@ const carouselAttributes = [
         path: '/img/projectOne.jpg',
         alt: 'Project One',
         caption:'Business Website',
-        info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        info:'A website created for a business, featuring three primary sections: portfolio, offerings, and a contact form. Initially designed as a prototype in Figma, it was then transformed into a fully responsive website across all screen sizes.',
+        technologies: 'HTML, CSS, JavaScript, React, and Bootstrap',
         buttonLink:'https://tans-architecture.netlify.app/'
 
     },
@@ -11,7 +12,8 @@ const carouselAttributes = [
         path: '/img/projectTwo.jpg',
         alt: 'Project Two',
         caption:'Jammming',
-        info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        info:'A React web application utilising state management and Spotify API requests, allowing users to explore the Spotify library, create custom playlists, and seamlessly save them to their Spotify accounts.',
+        technologies: 'HTML, CSS, JavaScript, React, HTTP Requests & Responses, and Authentication',
         buttonLink:'https://jammming-by-tans.netlify.app/authenticate'
 
     },
@@ -19,7 +21,8 @@ const carouselAttributes = [
         path: '/img/projectThree.jpg',
         alt: 'Project Three',
         caption:'Appointment Planner',
-        info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        info:'A React web application for managing contacts and appointments. It comprises two pages: one for viewing and adding contacts, and another for viewing and adding appointments.',
+        technologies: 'HTML, CSS, JavaScript, React',
         buttonLink:'https://appointment-planner-by-tans.netlify.app/'
 
     }

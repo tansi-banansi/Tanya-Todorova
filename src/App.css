@@ -29,6 +29,13 @@
     border-color: #EF8354 !important;
 }
 
+@media (max-width: 576px) {
+    .border-sm-0 {
+      border-left: none !important;
+      border-right: none !important;
+    }
+  }
+
 .bg-about-custom{
     background-color: #F7F7F7;
 }
@@ -54,3 +61,14 @@
 .bg-contact-button-custom:hover{
     background-color: #2D3142;
 }
+
+@media (max-width: 576px) {
+    .w-100-xs {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .w-50-sm {
+      width: 50%;
+    }
+  }
