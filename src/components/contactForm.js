@@ -3,14 +3,8 @@ import React from "react";
 
 
 function ContactForm(){
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        alert("Form submitted!"); 
-    };
-
     return(
-        <Form name="contact" method="post" data-netlify="true" onSubmit={handleSubmit} data-netlify-honeypot="bot-field">
+        <Form name="contact" method="post" data-netlify="true" onSubmit='submit' data-netlify-honeypot="bot-field">
                 <input type="hidden" name='form-name' value='contact'/>
                 <div hidden>
                     <input name="bot-field"/>
